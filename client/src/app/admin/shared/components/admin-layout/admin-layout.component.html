@@ -1,0 +1,9 @@
+<div class="panel">
+  <button mat-button routerLink="/home">Admin Panel</button>
+  <button mat-button routerLink="/rooms">Rooms</button>
+  <button mat-button routerLink="/users">Users</button>
+  <a mat-button href="#" (click)="logout($event)">Logout</a>
+</div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
